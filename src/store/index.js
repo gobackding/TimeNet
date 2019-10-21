@@ -1,11 +1,14 @@
 import {createStore,combineReducers,applyMiddleware} from "redux"
+import reduxThunk from "redux-thunk"
+import Find from "./Find/Find.js"
+import detail from "./Find/detail"
 
-import Find from "./Find"
 const reducer = combineReducers({
-    Find
+    Find,
+    detail
 })
 
 
-const store = createStore(applyMiddleware(reducer))
+const store = createStore(reducer,applyMiddleware(reduxThunk))
 
 export default store;

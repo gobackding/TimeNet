@@ -1,17 +1,20 @@
 import React, { Fragment } from "react";
 import TabBar from "@common/tabBar"
 import FindLists from "@common/FindList"
+import Find_Bottoms from "@common/Find_Bottom"
 export default class Layout extends React.Component {
     render() {
-        console.log(this.props, "999")
-        let { flag, FindList } = this.props.meta
+        let { flag, FindList, Find_Bottom } = this.props.meta
 
         return (
             <Fragment>
                 {flag ? <TabBar /> : ''}
                 {FindList ? <FindLists /> : ''}
 
-                {this.props.children}
+                <div style={{height:"100%",overflow:"auto"}}>
+                    {this.props.children}
+                    {Find_Bottom ? <Find_Bottoms /> : ''}
+                </div>
             </Fragment>
         )
     }

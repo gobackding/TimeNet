@@ -1,10 +1,10 @@
 import { TabBar } from "@router/index.js"
-import React, { Fragment } from "react"
+import React from "react"
 import { NavLink } from "react-router-dom"
 import {FindLists} from "./styled.js"
+
 export default class FindList extends React.Component {
     render() {
-        console.log(this.props, "777")
         return (
             <FindLists>
                 <ul>

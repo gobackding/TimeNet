@@ -4,13 +4,13 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 
 fieldset, c{ border:none; }
 
-img{display: block;}
+
 
 address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
 
 ul, ol ,li{ list-style:none; }
 
-body { color:rgb(185, 145, 145); font:12px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;}
+body { color:rgb(185, 145, 145); font:12px "SimSun","Arial Narrow",HELVETICA; background:#fff;}
 
 a { color:#666; text-decoration:none; }
 /*清除浮动*/

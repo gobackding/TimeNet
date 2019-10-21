@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
-
-export default class Loading extends Component {
+import "./index.css"
+class Loading extends Component {
     render() {
         return (
-            <div className="loader">loading</div>
+            <div className="loader">
+                <div className="dot"></div><div className="dot"></div><div className="dot"></div><div className="dot"></div><div className="dot"></div>
+            </div>
         )
     }
 }
+export default Loading;

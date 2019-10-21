@@ -22,6 +22,11 @@ const Mine = Loable({
     loading:Loading
 })
 
+const CityList = Loable({
+    loader:()=>import("./CityList"),
+    loading:Loading
+})
+
 const FilmReview = Loable({
     loader:()=>import("@component/Find/FilmReview"),
     loading:Loading
@@ -38,8 +43,12 @@ const Trailer = Loable({
     loader:()=>import("@component/Find/Trailer"),
     loading:Loading
 })
+const Detail = Loable({
+    loader:()=>import("./Detail"),
+    loading:Loading
+})
 
 
 export{
-    Home,TicketPurchase,Shopping,Find,Mine,FilmReview,News,RankingList,Trailer
+    Home,TicketPurchase,Shopping,Find,Mine,FilmReview,News,RankingList,Trailer,CityList,Detail
 }

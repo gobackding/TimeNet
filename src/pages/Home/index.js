@@ -13,8 +13,8 @@ import {connect} from "react-redux"
 const mapStateToProps=(state)=>({
 
 })
-const mapDispatchTPropos=(dispatch)=>({
+const mapDispacthToProps=(dispatch)=>({
 
 })
  
-export default connect(mapStateToProps,mapDispatchTPropos)(Home)
+export default connect(mapStateToProps,mapDispacthToProps)(Home)

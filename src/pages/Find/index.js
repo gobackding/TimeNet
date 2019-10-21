@@ -4,7 +4,7 @@ class Find extends React.Component {
     render() {
         return (
             <Fragment>
-                Find
+              
             </Fragment>
         )
     }
@@ -12,7 +12,7 @@ class Find extends React.Component {
 const mapStateToProps = (state) => ({
 
 })
-const mapDispatchTPropos = (dispatch) => ({
+const mapDispacthToProps = (dispatch) => ({
 
 })
-export default connect(mapStateToProps, mapDispatchTPropos)(Find)
+export default connect(mapStateToProps, mapDispacthToProps)(Find)

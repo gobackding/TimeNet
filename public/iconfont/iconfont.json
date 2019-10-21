@@ -6,11 +6,53 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "584110",
+      "name": "电话",
+      "font_class": "iconfontdianhua",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "587339",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "1092118",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2170923",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
       "icon_id": "3670113",
       "name": "我的",
       "font_class": "tubiaolunkuo-",
       "unicode": "e60e",
       "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "6270980",
+      "name": "三角形",
+      "font_class": "sanjiaoxing",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "7708039",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
     }
   ]
 }

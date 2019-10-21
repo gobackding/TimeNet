@@ -2,11 +2,9 @@ import styled from "styled-components";
 
 export const FindLists = styled.div`
     width:100%;
-    position:absolute;
-    top:.5rem;
     padding:.1rem 0;
-    border-bottom:solid 1px red;
-    background:yellow
+    border-bottom:solid 1px #f4f4f4;
+    background:#fff
     ul{
         width:100%;
         display:flex;
@@ -14,7 +12,11 @@ export const FindLists = styled.div`
         justify-content: space-around;
     }
     ul,li{
-        font-size:.2rem
+        font-size:.14rem
+    }
+    .active{
+        color:#1e7dd7;
+        font-weight:bold
     }
     
 `

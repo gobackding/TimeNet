@@ -6,9 +6,9 @@ export const TabBarDiv = styled.div`
     padding:.2rem .1rem;
     font-size:.16rem;
     display:flex;
-    position:absolute;
+    
     justify-content: space-around;
-    top:0;
+ 
     img{
         width:.6rem
     }
